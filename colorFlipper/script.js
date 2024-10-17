@@ -1,3 +1,4 @@
+// Variable initialization
 const body = document.getElementsByTagName("body")[0];
 const redBtn = document.getElementById("red");
 const blueBtn = document.getElementById("blue");
@@ -5,7 +6,7 @@ const yellowBtn = document.getElementById("yellow");
 const randomBtn = document.getElementById("random");
 const resetBtn = document.getElementById("reset");
 
-
+// Functions here
 function changeRed(){
     body.style.background = "red";
 }
@@ -48,7 +49,7 @@ resetBtn.onclick = () => {
     location.reload();
 };
 
-
+// main or part where the functions are called
 redBtn.onclick = changeRed;
 blueBtn.onclick = changeBlue;
 yellowBtn.onclick = changeYellow;
