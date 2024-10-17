@@ -1,5 +1,4 @@
 const body = document.getElementsByTagName("body")[0];
-
 const redBtn = document.getElementById("red");
 const blueBtn = document.getElementById("blue");
 const yellowBtn = document.getElementById("yellow");
